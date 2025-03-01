@@ -1,0 +1,15 @@
+research:
+  description: >
+    Use Tool  to collect data
+    Ensure that the data you collected is relevant to this '{topic}'.
+  expected_output: >
+    A collection of data related to '{topic}'.
+  agent: research_agent
+
+
+draft:
+  description: >
+    Ensure that the draft you created relevant to document of this '{topic}'.
+  expected_output: >
+    Draft of this'{topic}'.
+  agent: draft_agent
