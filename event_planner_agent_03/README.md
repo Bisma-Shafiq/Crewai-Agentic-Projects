@@ -14,7 +14,7 @@ Welcome to the **Event Planner AI Agent**! This AI-powered system leverages the 
 
 ---
 
-🧑‍💼 AI Agents & Responsibilities
+## 🧑‍💼 AI Agents & Responsibilities
 This system is powered by three intelligent CrewAI agents, each with a unique role:
 
 🏛 1. Venue Coordinator Agent
@@ -22,7 +22,7 @@ This system is powered by three intelligent CrewAI agents, each with a unique ro
 📌 Role: Finds venues that match event size, theme, and budget.
 📌 Backstory: Skilled in event logistics, ensuring the best location for an event.
 
-Assigned Task:
+# Assigned Task:
 
 venue_task:
   description: >
@@ -37,7 +37,7 @@ venue_task:
 📌 Role: Ensures all logistical aspects are seamlessly handled.
 📌 Backstory: Detail-oriented and efficient in executing catering, setup, and equipment management.
 
-Assigned Task:
+# Assigned Task:
 logistics_task: 
   description: >
     Coordinate catering and 
@@ -53,7 +53,7 @@ logistics_task:
 📌 Role: Creates marketing campaigns and communicates with attendees.
 📌 Backstory: A creative strategist who maximizes event visibility and participation.
 
-Assigned Task:
+# Assigned Task:
 
 marketing_task: 
   description: >
@@ -64,7 +64,9 @@ marketing_task:
     Report on marketing activities
     and attendee engagement formatted as markdown
   agent: marketing_communications_Agent
-🛠️ Installation & Setup
+
+  
+## 🛠️ Installation & Setup
 🔧 1. Install UV Package Manager & Dependencies
 Ensure you have UV (UltraFast Python Package Manager) installed:
 
@@ -78,7 +80,7 @@ Run the CrewAI event planner script:
 python event_planner.py
 This initializes the agentic workflow, and each agent autonomously executes its task.
 
-📌 Folder Structure
+## 📌 Folder Structure
 
 📂 Event-Planner-AI
 │── 📂 agents
@@ -91,7 +93,10 @@ This initializes the agentic workflow, and each agent autonomously executes its 
 │   ├── marketing_task.yaml
 │── 📜 event_planner.py
 │── 📜 README.md
-📊 Example Workflow
+
+
+
+## 📊 Example Workflow
 📍 User Input:
 
 Event Topic: Tech Conference
@@ -104,7 +109,7 @@ Event City: New York
 ✅ Logistics Manager Agent: Confirms catering and AV equipment for the event.
 ✅ Marketing Agent: Generates a marketing campaign report with attendee engagement details.
 
-🌟 Future Enhancements
+## 🌟 Future Enhancements
 🔹 AI-powered Venue Recommendations using location-based APIs.
 🔹 Automated Budget Management to optimize costs.
 🔹 Real-time Analytics Dashboard for event insights.
@@ -114,14 +119,3 @@ This AI-powered Event Planner automates and streamlines event organization using
 
 🚀 Get Started Today and Plan Your Event with AI!
 
-Made with ❤️ using CrewAI & UV
-
----
-
-This **Markdown-formatted README** includes:  
-✔ **Proper headings, bullet points, and structure** for readability.  
-✔ **Mermaid diagrams** for visual representation of system architecture.  
-✔ **Code blocks** for YAML configuration and installation steps.  
-✔ **Example workflow and future enhancements** for a professional touch.  
-
-Let me know if you need modifications! 🚀
