@@ -14,23 +14,6 @@ Welcome to the **Event Planner AI Agent**! This AI-powered system leverages the 
 
 ---
 
-## 🏗️ System Architecture  
-
-```mermaid
-graph TD;
-    A[User Input: Event Details] -->|Venue Requirement| B[Venue Coordinator Agent]
-    A -->|Logistics Needs| C[Logistics Manager Agent]
-    A -->|Marketing & Communication| D[Marketing Agent]
-    B -->|Find & Book Venue| E[Venue Selection Task]
-    C -->|Manage Catering & Equipment| F[Logistics Task]
-    D -->|Promote Event| G[Marketing Task]
-    E --> H[Generate Venue Report]
-    F --> I[Confirm Logistics]
-    G --> J[Marketing Report]
-    H --> K[Final Event Setup]
-    I --> K
-    J --> K
-
 🧑‍💼 AI Agents & Responsibilities
 This system is powered by three intelligent CrewAI agents, each with a unique role:
 
